@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* IDC E-card
+	Brainard Baccay
+	Designer of Clarity and Usability
+	TeamLBM!2015
+*/
+body{
+background-color:#b65115; 
+position:relative;
+overflow-x:hidden;
+}
+.border{border:1px solid #fff;}
+.cardWrap{background:url('../img/bodybg2.png') center no-repeat #B41015; 
+position:relative; width:1015px; height:612px; margin:auto; z-index:-1; margin:auto;
+overflow:hidden;
+}
+.bigBox{position:absolute;
+width:398px; height:356px;
+top:-500px;
+z-index:0;
+left:30px;
+}
+.box2{position:absolute;
+top:-500px;
+z-index:1;
+left:250px;
+}
+.balls{position:absolute;
+top:330px;
+height:0px;
+z-index:1;
+left:300px;
+opacity:0;
+}
+.toDoList{position:absolute;
+top:330px;
+right:-400px;
+z-index:1;
+}
+.icon1{position:absolute;
+top:-500px;
+z-index:1;
+right:350px;
+}
+.icon2{position:absolute;
+top:-500px;
+z-index:1;
+right:220px;
+}
+.icon3{position:absolute;
+top:-500px;
+z-index:1;
+right:100px;
+}
+.ball1{position:absolute;bottom:-500px; left:350px;
+z-index:2;
+}
+.ball2{position:absolute;bottom:-400px; left:130px;
+z-index:3;
+}
+.ball3{position:absolute;bottom:-400px; left:20px;
+z-index:2;
+}
+.eat{position:absolute; right:-500px; top:150px;
+z-index:2;
+}
+.drink{position:absolute; right:-500px; top:250px;
+z-index:2;
+}
+.beMerry{position:absolute; right:-500px; top:350px;
+z-index:2;
+}
+.enjoyMoment{position:absolute; right:-500px; top:220px;
+z-index:2;
+}
+.warmWishes{position:absolute; right:-600px; top:250px;
+z-index:2;
+}
+.fromIDC{position:absolute; right:75px; top:350px;
+z-index:2;
+opacity:0;
+}
+.lensflare{
+	top:-200px;
+	left:-800px;
+	opacity:0;
+	position:absolute;
+	z-index:0;
+}
+.valignMagic{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+position:absolute;
+height:100%;
+width:100%;
+}
+.valignChild{  resize: vertical;}
+.min-height{min-height:600px;}
+.mp3player{position:relative; width:98%; height:5px; margin:0px auto;}
+.play{background:url('../img/playStop.png') left top no-repeat; width:13px; height:13px; float:left; margin-right:10px; opacity:.40;}
+.play{background:url('../img/playStop.png') left top no-repeat; width:13px; height:13px; float:left; margin-right:10px; opacity:.40;}
+.pause{background:url('../img/playStop.png') right top no-repeat; width:13px; height:13px; float:left;opacity:.40;}
+.play:hover, .pause:hover{cursor:pointer; opacity:1;}
+.wrap{position:absolute; right:0px; bottom:50px;}
