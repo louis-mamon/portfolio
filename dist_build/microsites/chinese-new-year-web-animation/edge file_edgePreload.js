@@ -1,0 +1,4 @@
+
+(function(comp){"use strict";var preloaderDOM={dom:[{rect:['550px','359px','auto','auto','auto','auto'],id:'Text',text:'<p style=\"margin: 0px;\">​PLEASE WAIT..</p>',font:['Verdana, Geneva, sans-serif',[37,'px'],'rgba(90,2,25,1.00)','900','none','','break-word','nowrap'],type:'text'},{rect:['583px','316','220px','19px','auto','auto'],id:'loader-bar2',fill:['rgba(0,0,0,0)','images/loader-bar2.gif','0px','0px'],type:'image',tag:'img'}],style:{'${symbolSelector}':{isStage:'true',rect:[undefined,undefined,'1366px','650px']}}}
+comp.definePreloader(preloaderDOM);}(AdobeEdge.getComposition("EDGE-12250730")));(function(comp){"use strict";var downLevelStageDOM={dom:[],style:{}}
+comp.defineDownLevelStage(downLevelStageDOM);}(AdobeEdge.getComposition("EDGE-12250730")));

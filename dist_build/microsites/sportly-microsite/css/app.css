@@ -1,0 +1,440 @@
+body {
+
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.row-fluid-modify {
+	max-width: 100%;
+}
+
+.menu-text {
+	margin: auto;
+
+}
+
+.wrap {
+	max-width: 1024px;
+	margin: 0px auto;
+
+}
+
+.title-bar {
+   background-color: #db294c;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #db294c;
+}
+
+nav {
+
+background-color: #db294c;
+
+}
+
+nav .top-bar {
+	background-color: #db294c;
+
+}
+
+.menu > li {
+    background-color: #db294c;
+    color:#fff;
+}
+
+.menu li a {
+	color:#fff;
+}
+
+.top-bar-right {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+/*ul.menu {
+	display: flex;
+	flex-wrap: wrap; 
+}*/
+
+ul.menu li a  {
+
+ transition:.3s;
+
+}
+
+ul.menu li a:hover {
+	 box-shadow: inset 0 0 0 1px rgba(255,255,255,1);
+}
+
+@media screen and (max-width: 40em) {
+  .top-bar-right {
+  	background: #000 !important;
+  }
+
+  ul.menu li{
+	display: block;
+    clear: both;
+    float: none;
+    border-top: solid 1px #99132e;
+    text-align: center;
+    border-bottom: solid 1px #f85d7c;
+  }
+
+  ul.menu li:first-child{
+    border-top: none;
+
+  }
+
+  ul.menu li:last-child{
+    border-bottom: none;
+   
+  }
+}
+
+
+.no-js .top-bar {
+  display: none;
+}
+
+
+
+header {
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 70px 0px;
+	text-align: center;
+	height: 700px;
+	color:#fff;
+
+}
+
+header {
+ background-image: url(../img/banner-bg.jpg);
+background-repeat: no-repeat;
+background-position: center; 
+background-color: #000;
+font-family: 'Ubuntu', sans-serif;
+}
+
+header h1 {
+
+/* 	font-family: 'Ubuntu', sans-serif; */
+	font-family: 'Oswald', sans-serif;
+	
+    font-size: 4em;
+    font-weight: 400;
+    font-family: Oswald;
+    text-transform: uppercase;
+    border-width: 0px;
+    letter-spacing: 2px;
+    visibility: inherit;
+    transition: none;
+    text-align: left;
+
+}
+
+
+header p {
+	font-size: 3.5em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(191, 191, 191);
+}
+
+header button a{
+	background: transparent;
+	padding: 15px 40px;
+	font-size: 1.3em;
+	font-weight: bold;
+	border: solid 2px #ccc;
+	transition: .5s;
+	color:#ededed;
+}
+
+
+
+header button a:hover {
+	background: rgba(0, 0, 0, 0.7);
+	color:#ededed;
+}
+header button a:visited {
+	color:#ededed;
+}
+
+header .banner-text {
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+#featured-section {
+padding: 70px 0px 170px 0px;
+}
+
+
+
+#who-we-are {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 170px 0px 30px 0px;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+
+#who-we-are .banner-text {
+	font-family: 'Ubuntu', sans-serif;
+	max-width: 600px;
+	font-size: 1em;
+	text-rendering: optimizeLegibility;
+	color:#5d6a7f;
+}
+
+
+#who-we-are .banner-text h1{
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    color:#5d6a7f;
+}
+
+#goal {
+	color:#fff;
+	padding: 90px 0px;
+	background: url(../img/our-goal-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right 400px bottom 0px; 
+	background-color:black;
+	line-height: 1.8em;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+@media screen and (max-width: 800px) {
+	#goal {
+
+		background-position: right 0px bottom 0px;
+		padding: 70px 0px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#goal {
+
+		background-position: right -150px bottom 0px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#goal {
+
+		background-position: right -200px bottom 0px;
+		padding: 0px 0px;
+	}
+}
+
+#goal .banner-text {
+	max-width: 500px;
+	margin: 120px 70px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	text-rendering: optimizeLegibility;
+	color:#a4adbb;
+}
+
+#goal .banner-text h1{
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    color:#fff;
+}
+
+#goal .banner-text h1 span{
+    color:#df2b4e;
+}
+
+#products {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.8em;
+	padding: 10em 0px;
+	text-align: center;
+}
+
+#products h1 {
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+     color:#5d6a7f;
+}
+
+.parallax {
+	height: 30em;
+	 background: url(../img/parallax-bg.jpg) no-repeat; 
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 10%;
+}
+
+@media screen and (max-width: 480px) {
+    .parallax {
+        height: 20em;
+    }
+}
+
+#mail {
+	text-align: center;
+	padding: 150px 0px;
+	background-color: #df2b4e;
+	color:#fff;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+color: #ddd !important;
+}
+ 
+input[type="email"]:-moz-placeholder { /* Firefox 18- */
+color: #ddd !important; 
+}
+ 
+input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+color: #ddd !important;  
+}
+ 
+input[type="email"]:-ms-input-placeholder {  
+color: #ddd !important;  
+}
+
+input[type="text"]::-webkit-input-placeholder {
+color: #ddd !important; 
+}
+ 
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+color: #ddd !important;  
+}
+ 
+input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+color: #ddd !important;  
+}
+ 
+input[type="text"]:-ms-input-placeholder {  
+color: #ddd !important;   
+}
+
+
+
+#mail h1{
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+    
+}
+#mail input[type="email"] {
+
+	border: solid 1px #eee;
+	width: 100%;
+	padding: 13px;
+	background: transparent;
+	color:#eee;
+	font-weight: 300;
+	transition: .7s;
+}
+
+#mail input[type="text"] {
+
+	border: solid 1px #eee;
+	width: 100%;
+	padding: 13px;
+	background: transparent;
+	color:#eee;
+	font-weight: 300;
+	transition: .7s;
+}
+
+#mail input[type="submit"] {
+
+	border: none;
+	width: 100%;
+	padding: 13px;
+	background-color: #262b31;
+	color:#dfdfdf;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: .7s;
+}
+
+#mail input[type="submit"]:hover {
+	background-color: #1a1f25;
+}
+
+
+
+footer {
+	text-align: center;
+	padding: 30px 0px;
+	background-color: #20252b;
+	color:#8f98a5;
+	font-size: 14px;
+	
+}
+
+footer p {
+	line-height: 22px;
+	line-height: 28px;
+}
+
+
+/* SCROLL TO TOP CSS */
+.scrollToTop {
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom: 50px;
+	right:40px;
+	display:none;
+	background: url('../img/back-to-top.png') no-repeat 0px 20px;
+}
+
+@media screen and (max-width: 700px) {
+.scrollToTop {
+
+	/*
+	bottom: 30px;
+	right:-40px;
+	*/
+	visibility: hidden;
+
+}
+
+
+
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
