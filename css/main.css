@@ -453,3 +453,10 @@ a:hover, a:active, a:focus {
     font-size: 17px;
     margin-top: 10px;
 }
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+}
