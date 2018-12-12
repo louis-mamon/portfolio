@@ -453,6 +453,9 @@ a:hover, a:active, a:focus {
     font-size: 17px;
     margin-top: 10px;
 }
+.navbar-custom-menu > .navbar-nav > li a {
+    color: #fff;
+}
 
 .nav>li>a {
     position: relative;
