@@ -457,6 +457,6 @@ a:hover, a:active, a:focus {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px;
-    color: #fff;
+    padding: 15px;
+    color: #333;
 }
