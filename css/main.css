@@ -154,7 +154,7 @@ text-transform: uppercase;
    }
 
    .about-banner-section {
-    background: url('../img/PORTOFLIO-about-BANNER.jpg') no-repeat top center fixed !important; 
+    background: url('../img/portfolio-about-banner.jpg') no-repeat top center fixed !important; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
