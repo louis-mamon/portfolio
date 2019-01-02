@@ -1,7 +1,6 @@
 {
-  "name": "Portfolio_github",
+  "name": "portfolio_github",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist_build"
@@ -9,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://louismamon.github.io/portfolio",
+  "homepage": "https://louismamon.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louis-mamon/portoflio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/louis-mamon/portoflio/issues"
+  },
+  "description": ""
 }
