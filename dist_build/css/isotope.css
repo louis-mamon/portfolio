@@ -1,4 +1,20 @@
 
+
+.nav-tabs {
+    padding-bottom: 12px !important;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px !important;
+    color: #eee !important;
+
+}
+
+
 .portfolioFilter a { 
 	 color:#555;
 	text-decoration:none;
@@ -9,18 +25,23 @@
     font-weight:normal;
 }
 
+
+.portfolioContainer {
+    margin-top: 5px;
+}
+
+
 .portfolioContainer div img{
 	border-radius: 0px;
 }
 
+
 .portfolioContainer div img:hover {
-	
 }
 
 .portfolioContainer > div{
-    margin:10px;
 	border: solid #484848 1px;
-
+    margin: 10px;
 }
 
 .object-description {
