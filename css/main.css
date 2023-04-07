@@ -64,7 +64,7 @@
 }
 .skill-desc {
 	margin: 20px;
-	width: 300px;
+	width: 400px;
 }
 .user-panel > .info > p {
 	font-weight: 600;
@@ -403,7 +403,7 @@
 }
 .content-header h1 {
 	color: #efefef;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 1.7em;
 	margin: 20px;
 }
@@ -570,7 +570,7 @@ a:hover, a:active, a:focus {
 	border-top: none;
 }
 .skin-blue .sidebar a {
-	color: #afafaf;
+	color: #ddd;
 }
 .box.box-primary {
 	border-top-color: #1ad05c;
@@ -674,7 +674,7 @@ a:hover, a:active, a:focus {
 	box-shadow: none;
 }
 .nav-tabs {
-	border-bottom: solid 2px #282828;
+	border-bottom: solid 1px #777;
 }
 .current {
 	background: #121212;
