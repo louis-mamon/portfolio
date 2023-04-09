@@ -72,7 +72,7 @@
 
 .skill-block {
     margin: 20px;
-    max-width: 400px;
+    max-width: 380px;
 }
 
 .skill-block .svg-div {
@@ -152,6 +152,12 @@
     padding: 60px 0px;
 }
 
+@media only screen and (max-width: 600px) {
+    #sample-work {
+        padding: 40px 0px;
+    }
+  }
+
 #sample-work h5 {
     font-weight: 700;
 }
@@ -174,9 +180,15 @@
     aspect-ratio: 432 / 234;
     display: flex;
     gap: 20px;
-    flex: 1 0 400px;
+    flex: 1 0 360px;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .recent-works > a  {
+        flex: 1 0 100%;
+    }
+  }
 
 .recent-works > a > div  {
     width: 100%;

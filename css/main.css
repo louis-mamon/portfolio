@@ -70,6 +70,7 @@ footer {
 
 .max-width-container {
     max-width: 1440px;
+    padding: 0px 24px;
     width: 100%;
 }
 
@@ -126,16 +127,3 @@ a.svg:after {
   object {
     pointer-events: none; /*  Need this so when we hover to an SVG we can use a pointer. But the SVG should be use or be wrapped in object */
  }
-
-
- @media only screen and (max-width: 960px) {
-    .spacing-md-side {
-        padding-left: 28px;
-        padding-right: 28px;
-     }
-
-     .margin-md-side {
-        margin-left: 28px;
-        margin-right: 28px;
-     }
-  }
