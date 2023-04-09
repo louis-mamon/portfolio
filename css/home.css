@@ -171,11 +171,8 @@
 }
 
 .recent-works > a  {
-    aspect-ratio: 432 / 234 !important;
+    aspect-ratio: 432 / 234;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     gap: 20px;
     flex: 1 0 400px;
     width: 100%;
