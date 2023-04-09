@@ -1,0 +1,47 @@
+<svg class="skils_svg" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 60.07 65.64">
+                                    <defs>
+                                        <style>
+                                            .cls-1,
+                                            .cls-2 {
+                                                fill: none;
+                                                stroke: #484852;
+                                                stroke-miterlimit: 10;
+                                                stroke-width: 2.63px;
+                                            }
+
+                                            .cls-1 {
+                                                stroke-linecap: square;
+                                            }
+                                        </style>
+                                    </defs>
+                                    <title>graphic design</title>
+                                    <g id="_13" data-name="13">
+                                        <polygon class="cls-1"
+                                            points="43.63 64.32 16.62 64.32 17.79 56.76 42.45 56.76 43.63 64.32">
+                                        </polygon>
+                                        <polyline class="cls-1"
+                                            points="39.89 51.33 44.94 40.05 34.39 12.41 30.12 12.41">
+                                        </polyline>
+                                        <polyline class="cls-1"
+                                            points="25.64 12.41 15.08 40.05 19.66 50.29 19.63 56.76 19.63 56.76">
+                                        </polyline>
+                                        <line class="cls-1" x1="30.12" y1="12.41" x2="30.12" y2="36.32"></line>
+                                        <path class="cls-1"
+                                            d="M186.88,283.28a3.67,3.67,0,1,1-3.66-3.67A3.67,3.67,0,0,1,186.88,283.28Z"
+                                            transform="translate(-153.22 -242.7)"></path>
+                                        <rect class="cls-1" x="27.36" y="1.32" width="5.27" height="5.27"></rect>
+                                        <rect class="cls-1" x="53.41" y="1.32" width="5.27" height="5.27"></rect>
+                                        <rect class="cls-1" x="206.7" y="268.36" width="5.27" height="5.27"
+                                            transform="translate(327.11 -181.04) rotate(90)"></rect>
+                                        <rect class="cls-1" x="154.53" y="268.36" width="5.27" height="5.27"
+                                            transform="translate(274.94 -128.88) rotate(90)"></rect>
+                                        <rect class="cls-1" x="1.32" y="1.32" width="5.27" height="5.27"></rect>
+                                        <path class="cls-2" d="M157.38,268.36c.76-6,6.09-20.29,23.21-21.6"
+                                            transform="translate(-153.22 -242.7)"></path>
+                                        <path class="cls-2" d="M189.69,247.31c6.17,0,17.82,7.23,19,16.84"
+                                            transform="translate(-153.22 -242.7)"></path>
+                                        <line class="cls-2" x1="49.67" y1="4.06" x2="36.47" y2="3.95"></line>
+                                        <line class="cls-2" x1="27.37" y1="4.06" x2="12.37" y2="4.06"></line>
+                                    </g>
+                                </svg>

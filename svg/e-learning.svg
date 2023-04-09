@@ -1,0 +1,54 @@
+<svg class="skils_svg" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.43 67.04">
+<defs>
+    <style>
+        .cls-1,
+        .cls-2,
+        .cls-3 {
+            fill: none;
+            stroke: #484852;
+            stroke-width: 2.63px;
+        }
+
+        .cls-1,
+        .cls-3 {
+            stroke-linecap: square;
+        }
+
+        .cls-1,
+        .cls-2 {
+            stroke-miterlimit: 10;
+        }
+
+        .cls-3 {
+            stroke-linejoin: round;
+        }
+    </style>
+</defs>
+<title>web development</title>
+<g id="_14" data-name="14">
+    <polyline class="cls-1"
+        points="79.11 7.67 79.11 55.15 1.32 55.15 1.32 1.32 79.11 1.32">
+    </polyline>
+    <polyline class="cls-2"
+        points="50.42 58.84 50.42 65.72 30.01 65.72 30.01 55.15 50.42 55.15">
+    </polyline>
+    <line class="cls-2" x1="22.69" y1="65.72" x2="57.74" y2="65.72"></line>
+    <line class="cls-2" x1="1.32" y1="46.15" x2="73.02" y2="46.15"></line>
+    <rect class="cls-1" x="57.74" y="8.3" width="13.86" height="30.82"></rect>
+    <line class="cls-1" x1="9.34" y1="8.3" x2="10.93" y2="8.3"></line>
+    <line class="cls-1" x1="9.34" y1="13.66" x2="10.93" y2="13.66"></line>
+    <line class="cls-1" x1="9.34" y1="19.03" x2="10.93" y2="19.03"></line>
+    <line class="cls-1" x1="9.34" y1="24.39" x2="10.93" y2="24.39"></line>
+    <line class="cls-1" x1="9.34" y1="29.75" x2="10.93" y2="29.75"></line>
+    <line class="cls-3" x1="62.74" y1="13.44" x2="66.6" y2="13.44"></line>
+    <line class="cls-3" x1="62.74" y1="18.68" x2="66.6" y2="18.68"></line>
+    <line class="cls-3" x1="62.74" y1="23.93" x2="66.6" y2="23.93"></line>
+    <line class="cls-3" x1="62.74" y1="29.18" x2="66.6" y2="29.18"></line>
+    <line class="cls-3" x1="62.74" y1="34.42" x2="66.6" y2="34.42"></line>
+    <line class="cls-1" x1="17.64" y1="39.35" x2="50.6" y2="39.35"></line>
+    <line class="cls-1" x1="50.6" y1="8.3" x2="17.64" y2="8.3"></line>
+    <polyline class="cls-1" points="48.26 31.7 43.54 26.67 38.81 31.7"></polyline>
+    <polyline class="cls-1" points="20.73 31.7 31.64 20.08 37.6 26.35"></polyline>
+    <circle class="cls-1" cx="46.04" cy="18.22" r="2.5"></circle>
+</g>
+</svg>

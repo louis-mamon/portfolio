@@ -1,0 +1,36 @@
+<svg class="skils_svg" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 107.97 62.59">
+                                    <defs>
+                                        <style>
+                                            .cls-1,
+                                            .cls-2 {
+                                                fill: none;
+                                                stroke: #484852;
+                                                stroke-miterlimit: 10;
+                                                stroke-width: 2.63px;
+                                            }
+
+                                            .cls-1 {
+                                                stroke-linecap: square;
+                                            }
+                                        </style>
+                                    </defs>
+                                    <title>Responsive web deisgn</title>
+                                    <g id="_16" data-name="16">
+                                        <polyline class="cls-1"
+                                            points="74.75 1.32 1.32 1.32 1.32 41.61 1.32 49.7 28.4 49.7 47.67 49.7 63.66 49.7">
+                                        </polyline>
+                                        <line class="cls-1" x1="74.75" y1="20.65" x2="74.75" y2="8.19"></line>
+                                        <polyline class="cls-2"
+                                            points="47.67 53.02 47.67 59.2 28.4 59.2 28.4 49.7 47.67 49.7">
+                                        </polyline>
+                                        <line class="cls-2" x1="21.49" y1="59.21" x2="54.58" y2="59.21"></line>
+                                        <line class="cls-2" x1="56.06" y1="41.61" x2="1.32" y2="41.61"></line>
+                                        <polyline class="cls-1"
+                                            points="95.67 61.28 63.66 61.28 63.66 20.64 95.67 20.64 95.67 29.07">
+                                        </polyline>
+                                        <line class="cls-1" x1="78.04" y1="55.32" x2="81.88" y2="55.32"></line>
+                                        <rect class="cls-1" x="90.59" y="35.99" width="16.06" height="25.29"></rect>
+                                        <line class="cls-1" x1="98.03" y1="56.04" x2="99.22" y2="56.04"></line>
+                                    </g>
+                                </svg>

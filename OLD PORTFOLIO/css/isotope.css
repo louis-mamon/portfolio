@@ -1,4 +1,21 @@
-/* .portfolioFilter a { 
+
+
+.nav-tabs {
+    padding-bottom: 12px !important;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px !important;
+    color: #eee !important;
+
+}
+
+
+.portfolioFilter a { 
 	 color:#555;
 	text-decoration:none;
 	font-size: 17px;
@@ -8,21 +25,26 @@
     font-weight:normal;
 }
 
+
+.portfolioContainer {
+    margin-top: 5px;
+}
+
+
 .portfolioContainer div img{
 	border-radius: 0px;
 }
 
+
 .portfolioContainer div img:hover {
-	
-} */
+}
 
-/* .portfolioContainer > div{
-    margin:10px;
+.portfolioContainer > div{
 	border: solid #484848 1px;
+    margin: 10px;
+}
 
-} */
-
-/* .object-description {
+.object-description {
 	padding: 5px 5px  10px 5px;
 }
 
@@ -31,15 +53,15 @@
 -moz-box-shadow: 0px 0px 20px 0px rgba(37,37,37,1);
 box-shadow: 0px 0px 20px 0px rgba(37,37,37,1);
 
-} */
+}
 
-/* .portfolioContainer div p{
+.portfolioContainer div p{
 	margin: 5px 0px  0px 0px;
 	font-size: 14px;
 	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: bold;
 	color: #efefef;
-} */
+}
 
 
 .isotope-item {
