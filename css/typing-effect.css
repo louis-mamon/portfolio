@@ -1,0 +1,8 @@
+/* Cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid var(--main-dark);
+}
+
+.txt-type {
+    color: var(--main-color);
+}

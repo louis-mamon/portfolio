@@ -11,6 +11,9 @@
 /* Pages CSS */
 @import "home.css";
 
+/* Typing Effect CSS */
+@import "typing-effect.css";
+
 
 .width-100percent {
     width: 100%;
