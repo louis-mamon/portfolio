@@ -103,6 +103,7 @@
 	align-items: center;
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 .home-banner-section h2 {
@@ -130,8 +131,6 @@
 	z-index: 1;
 	width: 100%;
 }
-
-
 
 
 
@@ -178,6 +177,10 @@
 		font-size: 45px;
 		width: 100%;
 	}
+
+	.home-banner-section img {
+		height: 100%;
+	}
 }
 
 @media only screen and (max-width: 620px) {
@@ -199,6 +202,7 @@
 	align-items: center;
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 .about-banner-section h2 div.paragraph {
@@ -294,6 +298,10 @@
 	.about-banner-section h2 {
 		font-size: 45px;
 		width: 80%;
+	}
+
+	.about-banner-section img {
+		height: 100%;
 	}
 }
 
@@ -737,8 +745,7 @@ a:focus {
 	min-height: 250px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 64px 15px;
 	background-color: #191919;
 }
 
