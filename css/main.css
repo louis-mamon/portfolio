@@ -658,7 +658,7 @@ a:focus {
 .skin-blue .sidebar-menu>li:hover>a,
 .skin-blue .sidebar-menu>li.active>a {
 	background: #171717;
-	border-left-color: #1b6ea1 !important;
+	border-left-color: #2163b7 !important;
 	color: rgb(255, 255, 255);
 }
 
@@ -668,11 +668,11 @@ a:focus {
 }
 
 .text-success {
-	color: #1b6ea1;
+	color: #2163b7;
 }
 
 .skin-blue .main-header .navbar {
-	background-color: #1b6ea1;
+	background-color: #2163b7;
 }
 
 .main-header .logo .logo-lg {
@@ -692,11 +692,11 @@ a:focus {
 }
 
 .box.box-primary {
-	border-top-color: #1b6ea1;
+	border-top-color: #2163b7;
 }
 
 .nav-tabs-custom>.nav-tabs>li.active {
-	border-top-color: #1b6ea1;
+	border-top-color: #2163b7;
 }
 
 .img-bordered-sm {
