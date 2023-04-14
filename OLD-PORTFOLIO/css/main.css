@@ -1,0 +1,135 @@
+/* Imports CSS */
+
+@import "reset.css";
+@import "font.css";
+@import "variables.css";
+
+/* Layout CSS */
+@import "header.css";
+@import "footer.css";
+
+/* Pages CSS */
+@import "home.css";
+
+/* Typing Effect CSS */
+@import "typing-effect.css";
+
+/* Typing Effect CSS */
+@import "isotope.css";
+
+
+.width-100percent {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Inter', 'Open Sans', 'Lato', sans-serif;
+}
+
+#main-wrapper.basic-layout {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+    "header-area"
+    "content-area"
+    "footer-area"
+    ;
+}
+
+header {
+    grid-area: header-area;
+    background-color: var(--main-dark2);
+    padding: 12px;
+}
+
+header .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    grid-area: footer-area;
+    background-color: var(--main-dark2);
+    padding: 40px 20px;
+    color: var(--text-white2);
+}
+
+#content {
+    grid-area: content-area;
+    background-color: var(--main-white);
+    color: var(--text-dark);
+}
+
+.row-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.max-width-container {
+    max-width: 1440px;
+    padding: 0px 24px;
+    width: 100%;
+}
+
+
+.svg-container .svg-louis {
+    height: 100px !important;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+#header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-expertise-headings {
+    text-align: center;
+}
+
+.skills-expertise-headings h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: var(--text-white);
+    letter-spacing:2px;
+}
+
+a.svg {
+    position: relative;
+    display: inline-block;
+  }
+
+a.svg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  a embed:hover {
+    cursor: pointer;
+  }
+
+  object {
+    pointer-events: none; /*  Need this so when we hover to an SVG we can use a pointer. But the SVG should be use or be wrapped in object */
+ }

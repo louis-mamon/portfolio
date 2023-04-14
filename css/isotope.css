@@ -1,150 +1,91 @@
-.wrapper {
-    width: 1000px;
-    margin: auto;
-    display: block;
+
+
+.nav-tabs {
+    padding-bottom: 12px !important;
 }
 
-.btn {
-    text-transform: uppercase;
-    font-size: 12px;
-    padding: 5px 15px;
-    background: #d6d6d6;
-    display: inline-block;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: #fff;
-}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 20px !important;
+    color: #eee !important;
 
-.btn:hover {
-    background: #aaa;
-}
-
-/* ---- button ---- */
-
-.button {
-    display: inline-block;
-    padding: 10px 18px;
-    margin-bottom: 10px;
-    background: #EEE;
-    border: none;
-    border-radius: 7px;
-    background: #f3f3f3;
-    color: #222;
-    font-family: sans-serif;
-    font-size: 16px;
-    text-shadow: 0;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #8CF;
-    color: #222;
-}
-
-.button:active,
-.button.is-checked {
-    background-color: #aa96ca;
-}
-
-.button.is-checked {
-    color: white;
 }
 
 
-/* ---- button-group ---- */
-
-.button-group:after {
-    content: '';
-    display: block;
-    clear: both;
+.portfolioFilter a { 
+	 color:#555;
+	text-decoration:none;
+	font-size: 17px;
 }
 
-.button-group .button {
-    float: left;
-    border-radius: 0;
-    margin-left: 0;
-    margin-right: 1px;
-    font-family: arial;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
+.portfolioFilter a.current { 
+    font-weight:normal;
 }
 
 
-/* ---- isotope ---- */
-
-.grid {
-    border: 0;
+.portfolioContainer {
+    margin-top: 5px;
 }
 
-/* clear fix */
-.grid:after {
-    content: '';
-    display: block;
-    clear: both;
+
+.portfolioContainer div img{
+	border-radius: 0px;
 }
 
-/* ---- .element-item ---- */
 
-.element-item {
-    position: relative;
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
-    padding: 0;
-    background: #888;
-    color: #262524;
-    overflow: hidden;
+.portfolioContainer div img:hover {
 }
 
-.element-item img {
-    max-width: 100%;
-    height: auto;
+.portfolioContainer > div{
+	border: solid #484848 1px;
+    margin: 10px;
 }
 
-.element-item>* {
-    margin: 0;
-    padding: 0;
+.object-description {
+	padding: 5px 5px  10px 5px;
 }
 
-.element-item .name {
-    position: absolute;
+.portfolioContainer div:hover {
+   -webkit-box-shadow: 0px 0px 20px 0px rgba(37,37,37,1);
+-moz-box-shadow: 0px 0px 20px 0px rgba(37,37,37,1);
+box-shadow: 0px 0px 20px 0px rgba(37,37,37,1);
 
-    left: 10px;
-    top: 60px;
-    text-transform: none;
-    letter-spacing: 0;
-    font-size: 12px;
-    font-weight: normal;
 }
 
-.element-item .city {
-    position: absolute;
-    left: 10px;
-    top: 0px;
-    font-size: 42px;
+.portfolioContainer div p{
+	margin: 5px 0px  0px 0px;
+	font-size: 14px;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: bold;
-    color: white;
+	color: #efefef;
 }
 
-.element-item .date {
-    position: absolute;
-    right: 8px;
-    top: 5px;
-}
 
-.element-item.city1 {
-    background: #F00;
-    background: hsl(0, 100%, 50%);
+.isotope-item {
+    z-index: 2;
 }
-
-.element-item.city2 {
-    background: #F80;
-    background: hsl(36, 100%, 50%);
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
 }
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
 
-.element-item.city3 {
-    background: #FF0;
-    background: hsl(72, 100%, 50%);
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
 }
