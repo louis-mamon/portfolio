@@ -170,8 +170,7 @@
 @media only screen and (max-width: 849px) {
 	.home-banner-section h2 {
 		margin-top: 30px;
-		font-size: 30px;
-	}
+		font-size: 45px;
 }
 
 @media only screen and (max-width: 765px) {
@@ -188,6 +187,10 @@
 @media only screen and (max-width: 620px) {
 	.home-banner-section h2 {
 		font-size: 40px;
+	}
+
+	.home-banner-section {
+		height: auto;
 	}
 }
 
@@ -298,6 +301,10 @@
 @media only screen and (max-width: 620px) {
 	.about-banner-section h2 {
 		font-size: 40px;
+	}
+
+	.about-banner-section {
+		height: auto;
 	}
 }
 
