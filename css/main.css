@@ -204,7 +204,7 @@
 .about-banner-section h2 div.paragraph {
 	font-size: 23px;
 	color: #fefefe;
-	text-transform: lowercase;
+	text-transform: none;
 	font-weight: 100;
 	line-height: 30px !important;
 	width: 70%;
